@@ -20,8 +20,8 @@
 ////////////////////////////////////////////////////////
 
 #ifndef STASSID
-#define STASSID "Datori1"
-#define STAPSK "DatZ1140"
+#define STASSID "MansSSID"
+#define STAPSK "********"
 #endif
 
 #define SSID STASSID
@@ -126,10 +126,9 @@ void loop()
       digitalWrite(LED_BUILTIN, LOW);
     }
     else
-        {
+    {
       digitalWrite(LED_BUILTIN, HIGH);
     }
-
 
     //    Serial.println();
     //    printTm("localtime", localtime(&now));
